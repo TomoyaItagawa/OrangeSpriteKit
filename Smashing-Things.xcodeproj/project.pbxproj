@@ -15,6 +15,8 @@
 		D9CDDC831EC77FB400A95B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CDDC811EC77FB400A95B86 /* Main.storyboard */; };
 		D9CDDC851EC77FB400A95B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CDDC841EC77FB400A95B86 /* Assets.xcassets */; };
 		D9CDDC881EC77FB400A95B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CDDC861EC77FB400A95B86 /* LaunchScreen.storyboard */; };
+		D9CDDC901EC780FB00A95B86 /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D9CDDC8F1EC780FB00A95B86 /* Smashing-Things.atlas */; };
+		D9CDDC921EC7872E00A95B86 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDDC911EC7872E00A95B86 /* Orange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D9CDDC841EC77FB400A95B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9CDDC871EC77FB400A95B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9CDDC891EC77FB400A95B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CDDC8F1EC780FB00A95B86 /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
+		D9CDDC911EC7872E00A95B86 /* Orange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +70,11 @@
 				D9CDDC7D1EC77FB400A95B86 /* GameScene.swift */,
 				D9CDDC7F1EC77FB400A95B86 /* GameViewController.swift */,
 				D9CDDC811EC77FB400A95B86 /* Main.storyboard */,
+				D9CDDC8F1EC780FB00A95B86 /* Smashing-Things.atlas */,
 				D9CDDC841EC77FB400A95B86 /* Assets.xcassets */,
 				D9CDDC861EC77FB400A95B86 /* LaunchScreen.storyboard */,
 				D9CDDC891EC77FB400A95B86 /* Info.plist */,
+				D9CDDC911EC7872E00A95B86 /* Orange.swift */,
 			);
 			path = "Smashing-Things";
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CDDC901EC780FB00A95B86 /* Smashing-Things.atlas in Resources */,
 				D9CDDC831EC77FB400A95B86 /* Main.storyboard in Resources */,
 				D9CDDC7A1EC77FB400A95B86 /* GameScene.sks in Resources */,
 				D9CDDC851EC77FB400A95B86 /* Assets.xcassets in Resources */,
@@ -151,6 +158,7 @@
 				D9CDDC7E1EC77FB400A95B86 /* GameScene.swift in Sources */,
 				D9CDDC801EC77FB400A95B86 /* GameViewController.swift in Sources */,
 				D9CDDC781EC77FB400A95B86 /* AppDelegate.swift in Sources */,
+				D9CDDC921EC7872E00A95B86 /* Orange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66MS4Z42LC;
 				INFOPLIST_FILE = "Smashing-Things/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gawawa124.Smashing-Things";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66MS4Z42LC;
 				INFOPLIST_FILE = "Smashing-Things/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gawawa124.Smashing-Things";
 				PRODUCT_NAME = "$(TARGET_NAME)";
